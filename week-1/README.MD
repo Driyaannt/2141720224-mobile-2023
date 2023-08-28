@@ -8,9 +8,11 @@
 
 
 ## Hasil Instalasi Dart
-![This is an alt text.](./docs/hasil-running.png "Gambar versi dart.")
+![This is an alt text.](./docs/version-dart-flutter.png "Gambar Running Program dart membuat project Hello, World!.")
+
 
 ## Hasil Running Code Program Hello World
-![This is an alt text.](./docs/version-dart-flutter.png "Gambar Running Program dart membuat project Hello, World!.")
+![This is an alt text.](./docs/hasil-running.png "Gambar versi dart.")
+
 
 
