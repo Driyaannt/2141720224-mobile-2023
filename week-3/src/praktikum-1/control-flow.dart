@@ -16,8 +16,8 @@ void main() {
 
 // Langkah 3
 
-  String test = "true";
-  if (test == "true") {
-    print("Kebenaran");
-  }
+  // String test = "true";
+  // if (test == "true") {
+  //   print("Kebenaran");
+  // }
 }
