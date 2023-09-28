@@ -434,8 +434,6 @@ Some widget next to MyHomePage grows in size, making MyHomePage's constraints sm
 And so on
 Now your code can decide whether to show the label by querying the current constraints. Make the following single-line change to _MyHomePageState's build method:
 
-![This is an alt text.](./docs/build-responsive.png)
-
 Now, your app responds to its environment, such as screen size, orientation, and platform! In other words, it's responsive!.
 
 ![This is an alt text.](./docs/result-1.png)
