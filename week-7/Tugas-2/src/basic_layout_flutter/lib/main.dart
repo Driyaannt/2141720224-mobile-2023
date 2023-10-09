@@ -1,8 +1,7 @@
-import 'package:basic_layout_flutter/row_column.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyWidget());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,16 +15,27 @@ class MyApp extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Icon(Icons.account_circle, size: 100, color: Colors.green),
+          Icon(Icons.account_circle,
+              size: 100, color: Color.fromARGB(255, 76, 184, 206)),
           Expanded(
               child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Mochamad Driya Ananta>",
-                style: TextStyle(fontSize: 24, color: Colors.indigo),
+                "Mochamad Driya Ananta",
+                style: TextStyle(
+                    fontSize: 20, color: Color.fromARGB(255, 239, 240, 246)),
               ),
-              Text("2141720224",
-                  style: TextStyle(fontSize: 16, color: Colors.grey))
+              Padding(
+                padding: EdgeInsets.only(bottom: 8),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text("Nim: 2141720224",
+                      style: TextStyle(fontSize: 16, color: Colors.grey))
+                ],
+              ),
             ],
           ))
         ],
@@ -33,16 +43,23 @@ class MyApp extends StatelessWidget {
     );
 
     Widget contactSection = const Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text("Malang", style: TextStyle(fontSize: 16, color: Colors.black)),
-        Text("081259000842",
-            style: TextStyle(fontSize: 16, color: Colors.black))
+        // margin kanan 20
+        Padding(
+          padding: EdgeInsets.only(right: 40),
+        ),
+        Text("Malang, ",
+            style: TextStyle(
+                fontSize: 16, color: Color.fromARGB(255, 245, 243, 243))),
+        Text("085234827389",
+            style: TextStyle(
+                fontSize: 16, color: Color.fromARGB(255, 245, 243, 243)))
       ],
     );
 
     Widget iconSection = Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(20),
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
@@ -56,10 +73,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 199, 184, 224)),
       ),
-      home: ListView(children: [titleSection, contactSection, iconSection]),
+      home: ListView(children: [
+        titleSection,
+        contactSection,
+        iconSection,
+      ]),
     );
   }
 }
