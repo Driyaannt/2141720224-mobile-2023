@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file README.md!
 
   - Hasil dari praktikum tersebut adalah sebagai berikut: 
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) 
+  ![alt text](./images/hasil.jpg) 
 
 
 2. Jelaskan maksud dari langkah 2 pada praktikum tersebut!
@@ -148,4 +148,4 @@ class _MyHomePageState extends State<MyHomePage> {
     - Parameter "overflow" mengendalikan perilaku teks ketika melebihi jumlah baris yang telah diatur oleh "maxLines." Jika kita mengatur "overflow" sebagai "TextOverflow.ellipsis," maka teks yang tidak muat akan ditampilkan dengan tanda elipsis di akhir teks. Ini memberikan petunjuk visual kepada pengguna bahwa teks telah dipotong karena terlalu panjang.
 
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke spreadsheet yang telah disediakan!
-  [Code-Program](https://www.google.com)
+  [Code-Program](https://github.com/Driyaannt/2141720224-mobile-2023/tree/main/week-10/src/flutter_plugin_pubdev)
