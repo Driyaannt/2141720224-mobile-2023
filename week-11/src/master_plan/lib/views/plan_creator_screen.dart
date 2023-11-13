@@ -82,8 +82,11 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (_) => PlanScreen(
                           plan: plan,
-                        )));
-              });
+                        )
+                        )
+                        );
+              }
+              );
         });
   }
 }

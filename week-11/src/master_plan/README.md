@@ -30,6 +30,12 @@
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
     - jawab :
+    - Setelah mengikuti langkah-langkah tersebut, berhasil membuat aplikasi Flutter yang diberi nama "Master Plan". Aplikasi ini dibangun dengan model data yang mencakup entitas tugas (Task) dan rencana (Plan). Tampilan utama (PlanScreen) menggunakan ListView.builder untuk menampilkan daftar tugas. Pengguna dapat menambahkan tugas baru melalui tombol tambah yang disediakan. Setiap tugas dalam daftar dilengkapi dengan checkbox untuk menandai keberhasilan dan deskripsi tugas yang dapat diedit menggunakan TextFormField.
+
+    - Hasil
+
+      ![alt text](../../docs/hasil_1.gif)
+
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 
@@ -44,7 +50,7 @@
 6. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
     - jawab : 
-
+     [Tugas-Minggu 11](https://docs.google.com/spreadsheets/d/1w7o7qqNA9748xXOSLiCV34UGc-xZtIHAVUBuFtH6xZc/edit#gid=492562455)
 ### Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
@@ -78,11 +84,17 @@
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 
     - jawab :
+    - Setelah mengikuti langkah-langkah tersebut, aplikasi Flutter sekarang menggunakan manajemen state yang terpusat dengan memanfaatkan InheritedNotifier. Pada tampilan PlanScreen, progress dari rencana sekarang ditampilkan dengan jelas di bagian bawah halaman. UI aplikasi secara otomatis mengalami pembaruan setiap kali terjadi perubahan pada data rencana, yang dikelola oleh ValueNotifier. Ini memastikan bahwa tampilan secara dinamis merespons perubahan dalam status atau properti rencana tanpa memerlukan pembaruan manual dari pengguna.
+
+    -Hasil
+
+      ![alt text](../../docs/hasil_1.gif)
+
    
 5. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
     - jawab :   
-
+     [Tugas-Minggu 11](https://docs.google.com/spreadsheets/d/1w7o7qqNA9748xXOSLiCV34UGc-xZtIHAVUBuFtH6xZc/edit#gid=492562455)
 ### Tugas Praktikum 3: State di Multiple Screens
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
@@ -101,7 +113,14 @@
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat! 
     
     - jawab :
+    - Setelah langkah-langkah diimplementasikan pada Praktikum 3, aplikasi Flutter "Master Plan" dapat mengelola daftar rencana melalui PlanProvider. Modifikasi dilakukan pada PlanProvider, main.dart, dan plan_screen.dart untuk mengintegrasikan manajemen state yang terpusat pada daftar rencana.
+    Pada plan_screen.dart, terdapat perubahan yang mendukung daftar rencana, termasuk penggunaan getter untuk mengakses rencana. Selain itu, diperkenalkan juga PlanCreatorScreen yang memungkinkan pengguna menambahkan rencana baru.
+    Implementasi ini memungkinkan pengguna untuk mengelola dan melihat daftar rencana dengan lebih dinamis. Aplikasi dapat menyesuaikan tampilan secara otomatis sesuai dengan perubahan pada data yang dikelola oleh PlanProvider, menciptakan pengalaman yang lebih responsif dan user-friendly.
+    - hasil
+      ![alt text](../../docs/hasil_2.gif)
 
 4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
  
     - jawab :
+     [Tugas-Minggu 11](https://docs.google.com/spreadsheets/d/1w7o7qqNA9748xXOSLiCV34UGc-xZtIHAVUBuFtH6xZc/edit#gid=492562455)
+    
