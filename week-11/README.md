@@ -33,7 +33,7 @@
 
     - Hasil
 
-      ![alt text](docs/hasil_1.gif)
+      ![alt text](docs/Hasil_1.gif)
 
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
@@ -116,7 +116,7 @@
     Pada plan_screen.dart, terdapat perubahan yang mendukung daftar rencana, termasuk penggunaan getter untuk mengakses rencana. Selain itu, diperkenalkan juga PlanCreatorScreen yang memungkinkan pengguna menambahkan rencana baru.
     Implementasi ini memungkinkan pengguna untuk mengelola dan melihat daftar rencana dengan lebih dinamis. Aplikasi dapat menyesuaikan tampilan secara otomatis sesuai dengan perubahan pada data yang dikelola oleh PlanProvider, menciptakan pengalaman yang lebih responsif dan user-friendly.
     - hasil
-      ![alt text](docs/hasil_2.gif)
+      ![alt text](docs/Hasil_2.gif)
 
 4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
  
