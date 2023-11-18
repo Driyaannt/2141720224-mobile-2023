@@ -92,3 +92,10 @@
 7. - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
     ![alt text](docs/p4-soal-7.gif)
 
+8.  - Jelaskan maksud perbedaan kode langkah 1 dan 4!
+    - Jawab:
+    - Langkah 1:
+    - Menggunakan Future.delayed untuk menunda eksekusi selama 3 detik dan kemudian mengembalikan nilai integer (1, 2, dan 3).
+    - Langkah 4:
+    - Menggunakan Future.wait untuk menunggu hasil dari tiga fungsi asinkron pada Langkah 1.
+    - Menggunakan kata kunci await untuk menunggu hasil dari setiap fungsi sebelum melanjutkan eksekusi berikutnya. 
