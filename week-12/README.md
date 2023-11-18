@@ -103,3 +103,15 @@
     - Hasil
     ![alt text](docs/p5-soal-9.gif)
 
+10. - Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+    -jawab:
+    - Hasilnya adalah menampilkan pesan error pada tampilan UI.
+    - Langkah 1:
+    - menggunakan retiurn Future.error untuk menampilkan pesan error pada tampilan UI. dengan throw Exception('Something terriable happened').
+    - Langkah 4:
+    - menggunakan catchError untuk menampilkan pesan error pada tampilan UI. catchError dan finally ('complete') untuk menampilkan pesan error pada tampilan UI.
+
+    -hasil
+    - ![alt text](docs/p5-soal-9.gif)
+    - ![alt text](docs/p5-soal-10.png)
