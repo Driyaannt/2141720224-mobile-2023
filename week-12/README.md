@@ -51,3 +51,44 @@
 - Hasil
 
 ![alt text](docs/p2-soal-1.gif)
+
+5. - Jelaskan maksud kode langkah 2 tersebut!
+    - jawab:
+    Kode yang diberikan menggunakan objek Completer untuk mengelola operasi asinkron dan memberikan kontrol atas kapan operasi tersebut selesai. Berikut rangkuman langkah-langkahnya:
+
+    - Deklarasi Completer: Variabel completer dideklarasikan sebagai late Completer, menandakan bahwa inisialisasi akan dilakukan nanti.
+
+        Fungsi getNumber():
+
+    - Inisialisasi objek Completer dengan tipe integer.
+    Memanggil fungsi calculate() untuk memulai operasi asinkron.
+    Mengembalikan future dari completer, yang memungkinkan pihak lain untuk menunggu hasil dari operasi asinkron tersebut.
+    Fungsi calculate():
+
+    - Menunda eksekusi selama 5 detik untuk mensimulasikan operasi asinkron.
+    Menggunakan completer.complete(42) untuk menyelesaikan Future dengan nilai 42 setelah penundaan selesai.
+
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+
+    - Hasil
+    ![alt text](docs/p3-soal-1.gif)
+
+6.  - Jelaskan maksud perbedaan kode langka 2 dengan langkah 5-6 tersebut!
+    - Jawab:
+    - Langkah 2:
+    - Menggunakan Future.delayed untuk menunda eksekusi selama 3 detik dan kemudian mengembalikan nilai integer (1, 2, dan 3).
+    - Langkah 5-6:
+    - Menggunakan Completer untuk mengelola operasi asinkron dan memberikan kontrol atas kapan operasi tersebut selesai.
+    - Deklarasi Completer: Variabel completer dideklarasikan sebagai late Completer, menandakan bahwa inisialisasi akan dilakukan nanti.
+    - Fungsi getNumber():
+    Inisialisasi objek Completer dengan tipe integer.
+    Memanggil fungsi calculate() untuk memulai operasi asinkron.
+
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+
+    - Hasil
+    ![alt text](docs/p3-soal-1.gif)
+    
+7. - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
+    ![alt text](docs/p4-soal-7.gif)
+

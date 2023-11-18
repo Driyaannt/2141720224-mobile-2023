@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 
+import 'package:async/async.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -33,6 +35,28 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
 
+  void returnFG() {
+    final futures = Future.wait<int>([
+      returnOneAsync(),
+      returnTwoAsync(),
+      returnThreeAsync(),
+    ]);
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+    futureGroup.close();
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+      for (var element in value) {
+        total += element;
+      }
+      setState(() {
+        result = total.toString();
+      });
+    });
+  }
+
   Future<int> returnOneAsync() async {
     await Future.delayed(const Duration(seconds: 3));
     return 1;
@@ -48,14 +72,36 @@ class _FuturePageState extends State<FuturePage> {
     return 3;
   }
 
-  Future count() async{
+  Future count() async {
     int total = 0;
     total = await returnOneAsync();
     total += await returnTwoAsync();
     total += await returnThreeAsync();
     setState(() {
-      result =total.toString();
+      result = total.toString();
     });
+  }
+
+  late Completer completer;
+
+  Future getNumber() {
+    completer = Completer<int>();
+    calculate();
+    return completer.future;
+  }
+
+  Future calculate() async {
+    await Future.delayed(const Duration(seconds: 5));
+    completer.complete(42);
+  }
+
+  Future calculate2() async {
+    try {
+      await Future.delayed(const Duration(seconds: 5));
+      completer.complete(42);
+    } catch (_) {
+      completer.completeError({});
+    }
   }
 
   Future<Response> getData() async {
@@ -78,7 +124,15 @@ class _FuturePageState extends State<FuturePage> {
           ElevatedButton(
             child: const Text('Go!'),
             onPressed: () {
-              count();
+              returnFG();
+              // getNumber().then((value) {
+              //   setState(() {
+              //     result = value.toString();
+              //   });
+              // }).catchError((e) {
+              //   result = 'An error occurred';
+              // });
+              // count();
               // setState(() {});
               // getData().then((value) {
               //   result = value.body.toString().substring(0, 450);
