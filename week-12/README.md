@@ -99,3 +99,7 @@
     - Langkah 4:
     - Menggunakan Future.wait untuk menunggu hasil dari tiga fungsi asinkron pada Langkah 1.
     - Menggunakan kata kunci await untuk menunggu hasil dari setiap fungsi sebelum melanjutkan eksekusi berikutnya. 
+9.  - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+    - Hasil
+    ![alt text](docs/p5-soal-9.gif)
+

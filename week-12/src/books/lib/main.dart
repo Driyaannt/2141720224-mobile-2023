@@ -35,6 +35,25 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
 
+  Future handleErorr() async{
+   try{
+    await returnError();
+   }
+   catch (error){
+    setState(() {
+      result = error.toString();
+    });
+   }
+   finally{
+     print('Complete');
+   }
+  }
+
+  Future returnError() async{
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrible happened!');
+  }
+
   void returnFG() {
     final futures = Future.wait<int>([
       returnOneAsync(),
@@ -124,7 +143,17 @@ class _FuturePageState extends State<FuturePage> {
           ElevatedButton(
             child: const Text('Go!'),
             onPressed: () {
-              returnFG();
+              handleErorr();
+              // returnError().then((value) {
+              //   setState(() {
+              //     result = 'Success';
+              //   });
+              // }).catchError((e) {
+              //   setState(() {
+              //     result = e.toString();
+              //   });
+              // }).whenComplete(() => print('complete'));
+              // returnFG();
               // getNumber().then((value) {
               //   setState(() {
               //     result = value.toString();
