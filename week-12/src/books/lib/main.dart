@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 
+// ignore: depend_on_referenced_packages
 import 'package:async/async.dart';
 
 void main() {
@@ -22,8 +23,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FuturePage(key: UniqueKey()),
-      // home:LocationScreen(key: UniqueKey()),
+      // home: FuturePage(key: UniqueKey()),
+      home:LocationScreen(),
     );
   }
 }

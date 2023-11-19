@@ -118,4 +118,11 @@
 
 11. - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
     - ![alt text](docs/p6-soal-11.png)
-    
+
+12. - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+    - Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+    - Jawab:
+    - mendapatkan koordinat GPS ketika run di browser. karena browser mengizinkan untuk mengakses lokasi pengguna.
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+    - jawab
+    - ![alt text](docs/p6-soal-12.png)
