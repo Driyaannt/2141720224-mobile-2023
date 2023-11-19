@@ -125,7 +125,7 @@
     - mendapatkan koordinat GPS ketika run di browser. karena browser mengizinkan untuk mengakses lokasi pengguna.
     - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
     - jawab
-    - ![alt text](docs/p6-soal-12.png)
+    - ![alt text](docs/p6-soal-12.gif)
 
 13. - Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
     -  Jawab:
@@ -136,6 +136,9 @@
     - Tidak ada perbedaan dalam antarmuka pengguna (UI) dibandingkan dengan langkah sebelumnya. Pada langkah ini, hanya ditambahkan handleError() yang akan dieksekusi saat terjadi kesalahan. Namun, karena tidak ada kesalahan yang terjadi selama pemrosesan data lokasi pada langkah ini, bagian "Something terrible happened!" dari blok penanganan kesalahan tidak akan ditampilkan.
     - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
     - Hasil:
-    - ![alt text](docs/p6-soal-12.png)
+    - ![alt text](docs/p6-soal-12.gif)
 
-15. 
+15. - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+    - ![alt text](docs/p8-soal-15.png)
+    - Silakan ganti dengan warna tema favorit Anda.
+    - ![alt text](docs/p8-soal-15-2.png)
