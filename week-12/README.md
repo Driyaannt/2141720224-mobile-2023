@@ -142,3 +142,20 @@
     - ![alt text](docs/p8-soal-15.png)
     - Silakan ganti dengan warna tema favorit Anda.
     - ![alt text](docs/p8-soal-15-2.png)
+
+16. - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+    - jawab :
+    - Saar tombol diklik, warnanya akan berubah sesuai dengan konfigurasi ElevatedButton() di dalam class navigation_second.dart. Perubahan warna ini dipicu oleh fungsi Navigation.pop() pada setiap tombol, yang menerima parameter berupa konteks dan warna yang telah ditetapkan. Sehingga, setiap kali tombol diklik, warna yang tampil akan bervariasi sesuai dengan nilai yang terkandung dalam variabel color.
+    - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+    - Done
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+    - Jawab:
+    - ![alt text](docs/p8-soal-16.gif)
+
+17. - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+    - Saar tombol "Change Color" ditekan dan warna dipilih dari dialog, warna latar belakang layar akan berubah sesuai dengan pilihan warna tersebut. Proses ini terjadi karena nilai variabel "color" diperbarui dengan nilai warna yang dipilih dalam fungsi _showColorDialog. Selanjutnya, dengan menggunakan setState, widget diperbarui sehingga memicu pembangunan ulang widget dan mencerminkan perubahan warna pada layar.
+    - Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+    - Done
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+    - Jawab:
+    - ![alt text](docs/p9-soal-17.gif)

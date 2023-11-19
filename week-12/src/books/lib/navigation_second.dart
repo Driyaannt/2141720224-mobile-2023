@@ -13,7 +13,7 @@ class _NavigationSecondState extends State<NavigationSecond> {
     Color color;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Navigation Second Screen Sely'),
+        title: const Text('Navigation Second Screen Driya'),
       ),
       body: Center(
         child: Column(
@@ -23,27 +23,26 @@ class _NavigationSecondState extends State<NavigationSecond> {
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade500,
                 ),
-                child: const Text('Red'),
-                onPressed: () {
-                  color = Color(0xFF860A35);
-                  Navigator.pop(context, color);
-                }),
-            ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.grey.shade500,
-                ),
-                child: const Text('Green'),
-                onPressed: () {
-                  color = Color(0xFF78866B);
-                  Navigator.pop(context, color);
-                }),
-            ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.grey.shade500,
-                ),
                 child: const Text('Blue'),
                 onPressed: () {
-                  color = Color(0xFF7493A0);
+                  color = Color.fromARGB(255, 10, 105, 134);
+                  Navigator.pop(context, color);
+                }),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.grey.shade500,
+                ),
+                child: const Text('Purple'),
+                onPressed: () {
+                  color = Color.fromARGB(255, 231, 24, 193);
+                  Navigator.pop(context, color);
+                }),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 158, 158, 158)             ),
+                child: const Text('Yellow'),
+                onPressed: () {
+                  color = Color.fromARGB(255, 255, 242, 0);
                   Navigator.pop(context, color);
                 }),
           ],
