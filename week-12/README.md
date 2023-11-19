@@ -126,3 +126,9 @@
     - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
     - jawab
     - ![alt text](docs/p6-soal-12.png)
+
+13. - Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+    -  Jawab:
+    - Kedua praktikum tidak memiliki perbedaan pada antarmuka pengguna (UI), karena keduanya masih mengambil lokasi secara bersamaan dalam blok initState. Pada kasus pertama, setState digunakan untuk memperbarui myPosition setelah mendapatkan posisi, sedangkan pada kasus kedua, FutureBuilder secara otomatis mengelola pembaruan UI berdasarkan status future position. Meskipun hasil tampilan UI akhirnya serupa karena keduanya memiliki penundaan 3 detik, FutureBuilder mengatasi pembaruan UI tanpa pemanggilan setState langsung.
+
+
