@@ -115,3 +115,7 @@
     -hasil
     - ![alt text](docs/p5-soal-9.gif)
     - ![alt text](docs/p5-soal-10.png)
+
+11. - Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+    - ![alt text](docs/p6-soal-11.png)
+    
