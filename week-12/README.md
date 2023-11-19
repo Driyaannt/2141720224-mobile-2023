@@ -131,4 +131,11 @@
     -  Jawab:
     - Kedua praktikum tidak memiliki perbedaan pada antarmuka pengguna (UI), karena keduanya masih mengambil lokasi secara bersamaan dalam blok initState. Pada kasus pertama, setState digunakan untuk memperbarui myPosition setelah mendapatkan posisi, sedangkan pada kasus kedua, FutureBuilder secara otomatis mengelola pembaruan UI berdasarkan status future position. Meskipun hasil tampilan UI akhirnya serupa karena keduanya memiliki penundaan 3 detik, FutureBuilder mengatasi pembaruan UI tanpa pemanggilan setState langsung.
 
+14. - Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+    - Jawab:
+    - Tidak ada perbedaan dalam antarmuka pengguna (UI) dibandingkan dengan langkah sebelumnya. Pada langkah ini, hanya ditambahkan handleError() yang akan dieksekusi saat terjadi kesalahan. Namun, karena tidak ada kesalahan yang terjadi selama pemrosesan data lokasi pada langkah ini, bagian "Something terrible happened!" dari blok penanganan kesalahan tidak akan ditampilkan.
+    - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
+    - Hasil:
+    - ![alt text](docs/p6-soal-12.png)
 
+15. 
