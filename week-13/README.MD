@@ -136,3 +136,18 @@
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 
 ### Soal 13
+
+ - Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+ - jawab:
+  - `RandomNumberBloc` adalah implementasi BLoC dengan dua StreamController: `_generateRandomController` untuk mengontrol input events dan `_randomNumberController` untuk mengontrol output nomor acak.
+
+    - `MyHomePage` adalah antarmuka pengguna sederhana yang tidak terlibat langsung dengan logika bisnis. Dalam aplikasi lebih kompleks, logika bisnis bisa dipindahkan ke BLoC untuk pemisahan tanggung jawab.
+
+    - `RandomScreen` adalah antarmuka pengguna yang menggunakan `RandomNumberBloc`. State widget ini dikendalikan oleh stream `_bloc.randomNumber`. Setiap kali `_bloc.generateRandom` dipicu, nomor acak baru dihasilkan dan memperbarui antarmuka pengguna.
+
+    - Di `main.dart`, BLoC (`RandomNumberBloc`) diinisialisasi dan dimiliki oleh `_RandomScreenState`. Pemanggilan `_bloc.generateRandom.add(null)` pada tombol tindakan memicu pembangkitan nomor acak melalui BLoC.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+    - hasilnya:
+        - ![alt text](docs/p8-soal-13.gif)
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
+
