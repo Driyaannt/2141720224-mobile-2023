@@ -106,5 +106,20 @@
         - ![alt text](docs/p4-soal-9-2.png)
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
 
+### Soal 10
 
+- Jelaskan mengapa error itu bisa terjadi ?
+        - ![alt text](docs/p5-soal-10.png)
 
+- jawab :
+    - Error tersebut terjadi ketika mencoba untuk membuat dua langganan (subscription) pada stream yang sama tanpa membatalkan langganan sebelumnya. Kesalahan ini muncul pada tahap inisialisasi subscription2 dalam metode initState(). Ini terjadi karena sudah ada inisialisasi langganan untuk menangani stream yang sama pada waktu yang sama.
+
+### Soal 11
+
+ - Jelaskan mengapa hal itu bisa terjadi ?
+ - jawab :
+    - Saatin tombol 'New Random Number' ditekan, itu akan menghasilkan dua angka yang identik. Hasil ini berasal dari stream yang diakses oleh objek subscription dan subscription2, yang memberikan nilai sebagai event (angka acak) yang dipisahkan oleh tanda '-'. Saat tombol 'Stop Stream' ditekan, itu akan menghentikan langganan terhadap stream, sehingga stream tidak dapat menghasilkan output lagi meskipun tombol 'New Random Number' ditekan.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  - hasilnya:
+        - ![alt text](docs/p5-soal-11.gif)
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
