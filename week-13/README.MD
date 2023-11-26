@@ -91,5 +91,20 @@
         - ![alt text](docs/p3-soal-8.gif)
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
+### Soal 9
+
+ -  Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+  - jawab:
+  - Langkah 2 menjelaskan bahwa kode digunakan untuk melakukan langganan atau subscribe pada stream agar bisa menerima informasi atau output dari stream tersebut.
+
+  - Langkah 6 menjelaskan bahwa kode berfungsi untuk membatalkan atau menghentikan langganan pada stream. Saat layar tidak lagi ditampilkan, metode ini akan dipanggil untuk membersihkan sumber daya dan menghemat penyimpanan.
+
+ - Langkah 8 mengindikasikan suatu kondisi, yaitu jika stream belum ditutup, maka angka yang ditampilkan akan sesuai dengan hasil random. Sebaliknya, jika stream telah ditutup atau langganan telah dihentikan, maka angka yang ditampilkan akan menjadi -1.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+    - hasilnya:
+        - ![alt text](docs/p4-soal-9.gif)
+        - ![alt text](docs/p4-soal-9-2.png)
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+
 
 
