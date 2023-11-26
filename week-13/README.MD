@@ -123,3 +123,16 @@
   - hasilnya:
         - ![alt text](docs/p5-soal-11.gif)
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
+
+### Soal 12
+ - Jelaskan maksud kode pada langkah 3 dan 7 !
+  - jawab :
+   - Langkah 3 menggambarkan pembuatan class NumberStream() yang memiliki metode getNumbers() untuk memberikan stream berisi angka acak dengan interval 1 detik.
+
+   - Langkah 7 menjelaskan pembuatan antarmuka pengguna (UI) untuk menampilkan nilai dari stream secara real-time. Penggunaan StreamBuilder memastikan antarmuka terupdate otomatis setiap kali ada perubahan di stream, entah itu perubahan nilai atau adanya kesalahan. Ketika terjadi kesalahan, pesan 'Error!' akan ditampilkan; ketika data dari stream diterima tanpa kesalahan, angka acak akan ditampilkan dengan ukuran font 96; namun, jika tidak ada data yang diterima, antarmuka akan menampilkan widget kosong.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+    - hasilnya:
+        - ![alt text](docs/p6-soal-12.gif)
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+
+### Soal 13
