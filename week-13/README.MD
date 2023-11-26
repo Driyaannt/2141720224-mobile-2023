@@ -40,5 +40,21 @@
 - Hasilnya:
     - ![alt text](docs/p1-soal-4.gif)
 
+### Soal 5
+
+ - Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+    - jawab :
+    - await for:
+
+    - Digunakan untuk mendengarkan stream secara langsung dan menunggu setiap iterasi selesai sebelum melanjutkan ke iterasi berikutnya.
+    Berguna ketika kita perlu menangani setiap nilai stream secara berurutan dan sinkron.
+    
+    - listen:
+
+    - Digunakan untuk menambahkan pendengar ke dalam stream.
+    Tidak menggunakan await, sehingga pembaruan atau penanganan nilai dapat terjadi secara asinkron, tanpa menunggu satu iterasi selesai sebelum melanjutkan ke iterasi berikutnya.
+    Dengan kata lain, await for berguna ketika kita perlu menangani nilai stream secara sinkron, sementara listen digunakan untuk menangani nilai secara asinkron, tanpa memblokir proses berikutnya.
+    
+ - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
 
 
