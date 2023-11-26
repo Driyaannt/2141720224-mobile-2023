@@ -32,4 +32,13 @@
     Kode tersebut mendefinisikan suatu kelas bernama ColorStream yang memiliki metode getColors berupa asynchronous generator function. Fungsinya adalah menghasilkan suatu stream warna yang akan berulang setiap detik, dan warna-warna yang ditampilkan berasal dari daftar warna yang telah diatur sebelumnya. Dengan kata lain, metode getColors mengeluarkan warna-warna dari daftar tersebut sebagai stream, dan proses ini berulang setiap detik.
  - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3" 
 
- 
+### Soal 4
+
+ -  Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+- Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
+
+- Hasilnya:
+    - ![alt text](docs/p1-soal-4.gif)
+
+
+
