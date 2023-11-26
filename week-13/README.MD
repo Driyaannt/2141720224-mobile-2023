@@ -14,4 +14,14 @@
  - Hasilnya:
     - ![alt text](docs/p1-soal-1.png)
 
- 
+### Soal 2
+
+ - Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
+ - Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
+
+ - Hasilnya:
+    - ![alt text](docs/p1-soal-2.png)
+
+
+
+
