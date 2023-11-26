@@ -70,5 +70,20 @@
  
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
 
+### Soal 7
+
+ - Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+ - jawab :
+    Pada langkah 13 hingga 15, kode tersebut menangani error dengan menggunakan metode `addError()` pada class stream.dart. Jika terjadi kesalahan atau error selama proses iterasi atau ketika stream menghasilkan nilai, maka nilai dari lastNumber akan diubah menjadi -1. Dengan demikian, langkah-langkah ini bertujuan untuk memberikan penanganan khusus terhadap situasi error, mengatur nilai lastNumber menjadi -1 sebagai respons terhadap kondisi yang tidak diharapkan.
+
+    - ![alt text](docs/p2-soal-7.gif)
+
+ - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+
+
+
+
+
 
 
