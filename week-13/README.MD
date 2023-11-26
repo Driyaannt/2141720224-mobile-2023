@@ -81,9 +81,15 @@
  - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
  - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
 
+### Soal 8
 
-
-
+ - Jelaskan maksud kode langkah 1-3 tersebut!
+ - jawab :
+   Kode tersebut menggunakan Flutter untuk mengelola stream data. Dengan menerapkan transformer, setiap nilai dalam stream dikalikan dengan 10. Hasilnya dimonitor menggunakan `listen`, dan nilai yang dihasilkan diperbarui dalam tampilan menggunakan `setState`. Jika terjadi error, nilai `lastNumber` diatur menjadi -1, dan transformer juga menangani error dengan mengirim pesan 'Error' ke dalam stream. Dengan cara ini, kode mengelola transformasi stream serta menangani event dan error yang mungkin terjadi.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+    - hasilnya:
+        - ![alt text](docs/p3-soal-8.gif)
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
 
 
