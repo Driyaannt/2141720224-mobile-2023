@@ -22,6 +22,14 @@
  - Hasilnya:
     - ![alt text](docs/p1-soal-2.png)
 
+### Soal 3
 
+ - Jelaskan fungsi keyword yield* pada kode tersebut!
+ - jawab :
+     Penggunaan yield* terkait dengan stream dan digunakan untuk menghubungkan atau 'meneruskan' nilai-nilai dari satu stream ke stream lainnya. Saat kita menggunakan async* dan yield*, itu berarti kode tersebut dirancang untuk menghasilkan nilai-nilai dari suatu stream secara berurutan tanpa perlu secara eksplisit mengeluarkan setiap nilai satu per satu.
+ - Apa maksud isi perintah kode tersebut?
+    - jawab :
+    Kode tersebut mendefinisikan suatu kelas bernama ColorStream yang memiliki metode getColors berupa asynchronous generator function. Fungsinya adalah menghasilkan suatu stream warna yang akan berulang setiap detik, dan warna-warna yang ditampilkan berasal dari daftar warna yang telah diatur sebelumnya. Dengan kata lain, metode getColors mengeluarkan warna-warna dari daftar tersebut sebagai stream, dan proses ini berulang setiap detik.
+ - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3" 
 
-
+ 
