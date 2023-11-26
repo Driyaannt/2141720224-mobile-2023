@@ -54,7 +54,21 @@
     - Digunakan untuk menambahkan pendengar ke dalam stream.
     Tidak menggunakan await, sehingga pembaruan atau penanganan nilai dapat terjadi secara asinkron, tanpa menunggu satu iterasi selesai sebelum melanjutkan ke iterasi berikutnya.
     Dengan kata lain, await for berguna ketika kita perlu menangani nilai stream secara sinkron, sementara listen digunakan untuk menangani nilai secara asinkron, tanpa memblokir proses berikutnya.
-    
+
  - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
+### Soal 6
+
+ - Jelaskan maksud kode langkah 8 dan 10 tersebut!
+    - jawab :
+    - Langkah 8 melibatkan pembuatan objek NumberStream, yang menggunakan StreamController untuk mengelola stream. Saat aplikasi diinisialisasi, kita menghubungkan controller tersebut ke stream. Setiap kali stream menghasilkan nilai baru, seperti angka baru, kita menggunakan setState() untuk memperbarui tampilan.
+
+    - Langkah 10 melibatkan pembuatan suatu metode yang bertujuan menambahkan angka acak ke dalam stream. Dalam metode ini, kita menggunakan objek Random untuk menghasilkan nilai acak. Selanjutnya, nilai acak tersebut dimasukkan ke dalam stream menggunakan metode addNumberToSink pada objek numberStream. Dengan demikian, setiap kali metode ini dipanggil, angka acak baru akan ditambahkan ke dalam stream untuk diperbarui dalam tampilan.
+ - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+ - hasilnya:
+    - ![alt text](docs/p2-soal-6.gif)
+ 
+ - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
+
 
 
